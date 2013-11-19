@@ -53,20 +53,22 @@
 	}
 	.d {
 		border-bottom: 1px solid #E0E0E0;
+		background: #000 repeat top scroll;
 	}
 	.dark-bg {
-		background-color: #000;
 		color: #FFF;
-		text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-		background-size: cover;
+		text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+		background-color: #000;
+		background-image: url(NSWebsiteDarkTexture.jpg);
 	}
 	.light-bg {
-		color: #444;
+		color: #333;
+		text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3);
 		background-color: #FFF;
 		background-image: url(NSWebsiteLightTexture.jpg);
 	}
 	.light-bg p {
-		color: #666;
+		color: #555;
 	}
 	#top .inner {
 		max-width: 800px;
@@ -116,6 +118,7 @@
 	}
 	#top {
 		background: #2d6ca3 url(http://img.ly/system/uploads/007/617/096/original_Glow%201200p.jpg) center fixed no-repeat;
+		background-size: cover;
 		top: 0;
 	}
 	#d1 {
@@ -144,7 +147,7 @@
 		font-size: 13px;
 	}
 	#foot footer {
-		//text-align: center;
+		text-align: center;
 		padding-top: 30px;
 		max-width: 800px;
 		margin-left: auto;
@@ -179,9 +182,9 @@
 			</div>
 		</div>
 	</div>
-	<div id="d2" class="light-bg d">
+	<div id="d2" class="dark-bg d">
 		<div class="inner">
-			<h2>First STEP<br />Theme For Macintosh</h2>
+			<h2>First Step<br />Theme For Macintosh</h2>
 			<p>
 				We will introduce an application which will customize the OS X.
 			</p>
@@ -190,9 +193,9 @@
 			</p>
 		</div>
 	</div>
-	<div id="d3" class="dark-bg d">
+	<div id="d3" class="light-bg d">
 		<div class="inner">
-			<h2>Second STEP<br />Rebuild Foundations</h2>
+			<h2>Second Step<br />Rebuild Foundations</h2>
 			<p>
 				With Mach, FreeBSD, and OpenDarwin, we will get started to build our technical foundations. And we will provide one-station solution for users.
 			</p>
@@ -201,9 +204,9 @@
 			</p>
 		</div>
 	</div>
-	<div id="d4" class="light-bg d">
+	<div id="d4" class="dark-bg d">
 		<div class="inner">
-			<h2>Third STEP<br />The Ultimate Fusion</h2>
+			<h2>Third Step<br />The Ultimate Fusion</h2>
 			<p>
 				This project will be acquired by Apple but later versions will continuously be released under both GPLv2 and BSD License, though only designed for Macintosh.</p>
 			<p>
