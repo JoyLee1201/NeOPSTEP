@@ -55,17 +55,27 @@
 		border-bottom: 1px solid #E0E0E0;
 	}
 	.dark-bg {
+		background-color: #000;
 		color: #FFF;
 		text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 		background-size: cover;
 	}
 	.light-bg {
 		color: #444;
+		background-color: #FFF;
+		background-image: url(NSWebsiteLightTexture.jpg);
 	}
 	.light-bg p {
 		color: #666;
 	}
-	.inner {
+	#top .inner {
+		max-width: 800px;
+		height: 80%;
+		margin-top: 15%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.d .inner {
 		max-width: 800px;
 		height: 80%;
 		margin-top: 15%;
@@ -90,12 +100,18 @@
 		width: 30%;
 		overflow: visible;
 	}
+	.d > .inner > h2 {
+		text-align: left;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.inner > p {
 		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.light-bg h2 {
+	.d h2 {
 		font-size: 40px;
 	}
 	#top {
@@ -125,10 +141,14 @@
 	#foot {
 		top: 500%;
 		height: 80px;
+		font-size: 13px;
 	}
 	#foot footer {
-		text-align: center;
+		//text-align: center;
 		padding-top: 30px;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	a, a:link, a:visited, a:hover, a:active {
 		color: #0088CC;
@@ -170,7 +190,7 @@
 			</p>
 		</div>
 	</div>
-	<div id="d3" class="light-bg d">
+	<div id="d3" class="dark-bg d">
 		<div class="inner">
 			<h2>Second STEP<br />Rebuild Foundations</h2>
 			<p>
@@ -192,7 +212,7 @@
 		</div>
 	</div>
 	<div id="foot">
-		<footer>
+		<footer class="inner">
 			© 2013 All Rights Reserved by <a href="http://neop.me/">Joy Neop</a>
 		</footer>
 	</div>
